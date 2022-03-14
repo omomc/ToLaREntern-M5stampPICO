@@ -1,9 +1,5 @@
 #include "tolarentern.h"
 
-#define DATA_PIN 27
-#define LANTERN_PIN 33
-#define LED_PIN 32
-
 void lantern_on(){
   digitalWrite(LANTERN_PIN, LOW);
 }
@@ -16,11 +12,11 @@ void led_on(){
   digitalWrite(LANTERN_PIN, HIGH);
 }
 
-void led_on(){
+void led_off(){
   digitalWrite(LANTERN_PIN, LOW);
 }
 
-void blinking_led(void* arg){
+void blinking_lantern(void* arg){
   int blinking_time_msec = 500; // msec
   while (1) {
     led_on();
