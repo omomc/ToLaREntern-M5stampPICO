@@ -1,5 +1,7 @@
 /*
  WiFi Web Server LED Blink
+ ToLaREnternをWEBから制御するためのプログラムとなっています。
+ 
  A simple web server that lets you blink an LED via the web.
  This sketch will print the IP address of your WiFi Shield (once connected)
  to the Serial monitor. From there, you can open that address in a web browser
