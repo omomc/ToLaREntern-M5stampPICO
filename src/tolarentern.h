@@ -8,7 +8,5 @@ void lantern_on();
 void lantern_off();
 void led_on();
 void led_off();
-void blinking_lantern(void* arg);
-void blinking_led(void* arg);
 
 #endif
